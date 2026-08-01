@@ -1,23 +1,15 @@
 ---
-title: Primer avance del devlog
+title: Primer paso del devlog
 date: 2026-08-01
-description: Configuré el primer blog estático para registrar mi progreso personal y técnico.
+description: Armé una base simple para ir dejando registro de lo que voy aprendiendo y construyendo.
 ---
 
-## Introducción
+Hoy dejé listo un primer versión muy básica del devlog.
 
-Este es mi primer post del devlog. La idea es ir dejando un registro simple de lo que aprendo, pruebo y construyo.
+La idea es simple: ir dejando notas sobre lo que estoy haciendo, aprendiendo y probando en el día a día. Nada demasiado formal, y tampoco demasiado pensado.
 
-## Qué estoy usando
+Lo puse en Astro, con Markdown para las entradas y una estructura mínima para ir creciendo después.
 
-- Astro para la parte de blog
-- Markdown para las entradas
-- GitHub Pages para publicar
+Todavía no es más que una base, pero ya sirve para empezar a escribir sin fricción.
 
-## Objetivo
-
-Mantener una bitácora clara y útil de mi trabajo sin depender de una base de datos ni de una plataforma pesada.
-
-## Próximo paso
-
-Próximamente voy a ir agregando entradas más técnicas, con problemas resueltos, decisiones de arquitectura y aprendizajes.
+El próximo paso es ir dejando entradas más reales, con avances, errores, decisiones, y cosas que vayan saliendo en el proceso.
