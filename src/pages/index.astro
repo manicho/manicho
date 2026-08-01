@@ -15,6 +15,7 @@ const posts: PostEntry[] = await getCollection('posts');
 const sortedPosts = posts.sort(
   (a: PostEntry, b: PostEntry) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf(),
 );
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <html lang="es">
@@ -43,7 +44,7 @@ const sortedPosts = posts.sort(
                 title: post.data.title,
                 date: post.data.date,
                 description: post.data.description,
-                url: `/posts/${post.slug}`,
+                url: `${baseUrl}posts/${post.slug}`,
               }}
             />
           );
