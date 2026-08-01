@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'http://localhost:4321',
+  site: 'https://manicho.github.io',
+  base: '/',
+  output: 'static',
 });

@@ -1,0 +1,15 @@
+---
+const { post } = Astro.props;
+const formattedDate = new Date(post.date).toLocaleDateString('es-AR', {
+  day: '2-digit',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<article class="card">
+  <p class="meta">{formattedDate}</p>
+  <h2>{post.title}</h2>
+  <p>{post.description}</p>
+  <a href={post.url}>Leer entrada →</a>
+</article>
